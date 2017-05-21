@@ -1,0 +1,34 @@
+body * {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background-color: lightgrey;
+	padding: 10px 20px;
+}
+
+.navbar {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	position: fixed;
+}
+
+.nav-logo h1 {
+	font-size: 24px;
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+	color: black;
+}
+
+.navbar ul, .navbar ul li {
+	display: inline-block;
+	margin: 0;
+}
+
+.nav-item a {
+	font-size: 18px;
+	text-decoration: none;
+	margin-left: 15px;
+}
