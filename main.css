@@ -52,12 +52,17 @@ label {
 .search {
 	width: 40%;
 	vertical-align: middle;
+	border: 1px solid lightgrey;
+	padding: 2px;
+	border-radius: 2px;
 }
 
 .search-submit {
-	width: 30px;
-	height: 30px;
+	width: 28px;
+	height: 28px;
 	vertical-align: middle;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
 }
 
 .pagination-wrapper {
@@ -90,8 +95,30 @@ label {
 	padding: 5px;
 }
 
+.post {
+	margin: 10px 0;
+}
+
+.post .date {
+	color: #aaa;
+}
+
+.post .job-title {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+.post .location {
+	color: #aaa;
+}
 
 
-
+@media (max-width: 729px) {
+	.search {
+		width: 80%;
+	}
+}
 
 

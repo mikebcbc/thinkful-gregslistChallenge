@@ -5,7 +5,7 @@
 	<title>Greg's List</title>
 	<meta name="description" content="Greg's List is a full-fledged old-school classified site to fulfill all your buy, sell, and trading needs!">
 	<link rel="stylesheet" href="normalize.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -20,14 +20,33 @@
 	</header>
 	<main role="main">
 		<div class="wrapper search-wrapper">
-			<label for="search">Search Jobs</label>
-			<input type="text" name="search" class="search" placeholder="Search software jobs" />
-			<input type="image" class="search-submit" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png" border="0" alt="Submit" />
+			<form>
+				<label for="search">Search Jobs</label>
+				<input type="text" name="search" class="search" placeholder="Search software jobs" />
+				<input type="image" class="search-submit" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.6_challenge_design_to_code/magnifying-glass.png" border="0" alt="Submit" />
+			</form>
 		</div>
 		<div class="wrapper pagination-wrapper">
 			<a href="#" class="page-item prev">< prev</a>
 			<span class="page-item current-page">1 to 100 of 179</span>
 			<a href="#" class="page-item next">next ></a>
+		</div>
+		<div class="wrapper listings-wrapper">
+			<div class="post">
+				<span class="date">June 22</span>
+				<a href="" class="job-title">Technical Project Manager</a>
+				<span class="location">Midtown East</span>
+			</div>
+			<div class="post">
+				<span class="date">June 21</span>
+				<a href="" class="job-title">Frontend Devleoper</a>
+				<span class="location">SoHo</span>
+			</div>
+			<div class="post">
+				<span class="date">June 20</span>
+				<a href="" class="job-title">Senior Python Developer / Cofounder</a>
+				<span class="location">Flatiron</span>
+			</div>
 		</div>
 	</main>
 </body>
