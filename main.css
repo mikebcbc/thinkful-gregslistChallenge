@@ -32,3 +32,24 @@ header {
 	text-decoration: none;
 	margin-left: 15px;
 }
+
+main {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 30px 50px;
+}
+
+label {
+	display: block;
+}
+
+.search {
+	width: 40%;
+	vertical-align: middle;
+}
+
+.search-submit {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
