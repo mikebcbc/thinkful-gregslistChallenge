@@ -35,6 +35,11 @@ header {
 	margin-left: 15px;
 }
 
+.nav-item a:hover {
+	transition: color 0.4s;
+	color: blue;
+}
+
 main {
 	max-width: 1100px;
 	margin: 0 auto;
